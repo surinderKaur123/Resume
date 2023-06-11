@@ -1,69 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Surinder Kaur - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        
+        h1 {
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            color: #666666;
+            margin-top: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .repository-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .repository-list li {
+            margin-bottom: 10px;
+        }
+        
+        .repository-name {
+            font-weight: bold;
+        }
+        
+        .repository-description {
+            color: #666666;
+        }
+        
+        .repository-link {
+            color: #333333;
+            text-decoration: none;
+        }
+        
+        .repository-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-<body style="background-color:Silver;">
-
-<header>
-  <h1>Surinder Kaur</h1>
-  <img src="C:\Users\OWNER\Documents\sem3\FULL-Stack\image1.jpg" alt="Your Photo" id="profile-photo">
-  <nav>
-    <ul>
-      <li><a href="#objective">Objective</a></li>
-      <li><a href="#experience">Work Experience</a></li>
-      <li><a href="#internship">Internship</a></li>
-      <li><a href="#tutoring">Tutoring</a></li>
-    </ul>
-  </nav>
-</header>
-
-  <main>
-    <section id="objective">
-      <h2 style="background-color:powderblue;">Objective</h2>
-      <p>
-        To secure a challenging co-op opportunity in the computer field, utilizing and further developing my skills in machine learning, programming languages (Python, Java), while contributing to the success of the organization through teamwork, innovation, and dedication.
-      </p>
-    </section>
-
-    <section id="experience">
-      <h2 style="background-color:powderblue;">Work Experience</h2>
-      <div class="job">
-        <h3>Performance Test Engineer</h3>
-        <p><strong>Cognizant Pvt Limited, India - 2020/01-2022/02</strong></p>
-        <ul>
-          <li>Gathered and defined business and functional requirements for each program. Worked closely with the QA testing team.</li>
-          <li>Conducted load testing and stress testing on web-based cloud applications to identify performance issues and bottlenecks using Jira for defect tracking.</li>
-          <li>Collaborated with cross-functional teams to troubleshoot performance issues and optimize application performance.</li>
-          <li>Developed automation scripts using Java to automate performance testing on both LoadRunner and JMeter.</li>
-          <li>Worked closely with development teams to analyze performance issues and optimize application performance.</li>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my portfolio website!</p>
+    </header>
+    
+    <div class="container">
+        <h2>My GitHub Repositories</h2>
+        <ul class="repository-list">
+            <!-- Replace the placeholder values with your own repository information -->
+            <li>
+                <span class="repository-name">Repository Name</span>:
+                <span class="repository-description">Repository description goes here</span> |
+                <a class="repository-link" href="https://github.com/your-username/repository">GitHub</a>
+            </li>
+            <li>
+                <span class="repository-name">Repository Name</span>:
+                <span class="repository-description">Repository description goes here</span> |
+                <a class="repository-link" href="https://github.com/your-username/repository">GitHub</a>
+            </li>
+            <!-- Add more repository list items as needed -->
         </ul>
-      </div>
-    </section>
-
-    <section id="internship">
-      <h2 style="background-color:powderblue;">Internship - Android Development</h2>
-      <div class="job">
-        <h3>CDAC, Mohali, India - 2018/06 - 2018/08</h3>
-        <ul>
-          <li>Learned how to develop frontend and backend of mobile applications using Java for Android devices.</li>
-          <li>Developed an Android-based application for searching tuition teachers for classes.</li>
-          <li>Conducted thorough testing to ensure that the mobile application functions correctly and is free of bugs.</li>
-          <li>Published the mobile application on the Google Play Store, overcoming various challenges with problem-solving skills.</li>
-          <li>Worked as a team leader with a team of 3 people to make the application easy to navigate and visually appealing.</li>
-          <li>Presented a project presentation in front of the class teacher and other students.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="tutoring">
-      <h2 style="background-color:powderblue;">Tutoring - Volunteering</h2>
-      <div class="job">
-        <h3>Cognizant Outreach Program</h3>
-        <ul>
-          <li> Volunteered to teach students in high school who were interested in computer science but were struggling with their coursework (data structures, OOP concepts, SQL) due to a lack of teacher availability Organized various activities related to coding competitions and webinars.</li>
-          <li> Organized events for 10th-grade students by giving them degrees helped me to build relationships with students and co-workers.</li>
+    </div>
+</body>
+</html>
